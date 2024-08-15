@@ -48,6 +48,8 @@ class PrepareBaseModel:
         full_model.summary()
         return full_model
 
+
+
     def update_base_model(self):
         self.full_model = self._prepare_full_model(
             model = self.model,
@@ -64,4 +66,3 @@ class PrepareBaseModel:
 
 
     
-# 2:00:40
